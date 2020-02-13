@@ -13,6 +13,7 @@
     <path id="registro123.classpath">
         <pathelement location="bin"/>
         <path refid="Tomcat 9.0.27.userclasspath"/>
+        <pathelement location="../eclipse/apache-tomcat-9.0.27/lib/servlet-api.jar"/>
     </path>
     <target name="init">
         <mkdir dir="bin"/>
