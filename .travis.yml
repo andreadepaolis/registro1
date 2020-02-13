@@ -1,4 +1,4 @@
 language: java
 jdk:
 - oraclejdk13
-script: ant
+script: ant -verbose
